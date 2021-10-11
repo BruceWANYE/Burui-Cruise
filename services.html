@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./assets/bold.svg" title="Burui Cruis">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cedarville+Cursive&family=Explora&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <title>Burui Cruis</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3 px-lg-5">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#dc3545" class="bi bi-type-bold" viewBox="0 0 16 16">
+              <path d="M8.21 13c2.106 0 3.412-1.087 3.412-2.823 0-1.306-.984-2.283-2.324-2.386v-.055a2.176 2.176 0 0 0 1.852-2.14c0-1.51-1.162-2.46-3.014-2.46H3.843V13H8.21zM5.908 4.674h1.696c.963 0 1.517.451 1.517 1.244 0 .834-.629 1.32-1.73 1.32H5.908V4.673zm0 6.788V8.598h1.73c1.217 0 1.88.492 1.88 1.415 0 .943-.643 1.449-1.832 1.449H5.907z"/>
+            </svg>urui Cruise</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./about-us.html">Our Team</a></li>
+                        <li><a class="dropdown-item" href="./about-us.html">Our Vision</a></li>
+                        <li><a class="dropdown-item" href="./about-us.html">Reviews</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Express Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Domestic Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Track Order</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contact-us.html">Contact Us</a>
+                  </li>
+                </ul>                
+              </div> 
+        </div>
+    </nav>
+    
+    <!-- Error -->
+    <section id="services" class="bg-light">
+            <div class="container-fluid bg-image d-flex" style="
+            background-image: url('./assets/error.jpg');
+            height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center;
+            ">
+            </div>
+    </section>
+
+    <!-- Subscribe -->
+    <section id="subscribe" class="bg-dark text-light">
+        <div class="container py-5">
+            <div class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#dc3545" class="bi my-4 bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                  </svg>
+                <h2>Subscribe To Newsletter</h2>
+                <p class="lead mt-3 fst-italic">Get our latest updates when you Subscribe to our Newsletter</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-7 text-center">
+                    <form>
+                        <input class="form-control mb-4" type="email" placeholder="e.g. eren-jaeger@example.com" aria-label="Email">
+                        <button class="btn btn-outline-danger" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black ">
+        <div class="contanier-fluid py-1 text-light">
+            <div class="text-center">
+                <h2 class="fst-italic">Burui Cruise</h2>
+                <p class="text-muted">&copyCopyright @2021 Made by Jaypee</p>
+            </div>  
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
